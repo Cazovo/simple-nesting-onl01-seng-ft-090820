@@ -113,7 +113,8 @@ def changing_alan
      
      programmer_hash[:alan_kay][:known_for] = "GUI"
 end
-
+    changing_alan
+    
 def adding_to_dennis
 	programmer_hash = 
  		{
@@ -132,3 +133,4 @@ def adding_to_dennis
      }
       programmer_hash[:dennis_ritchie][:languages] << "Assembly"
 end
+    adding_to_dennis
